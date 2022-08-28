@@ -1,0 +1,141 @@
+h1{
+    color: white;
+    font-size: max(60px, 4vw);
+    font-family: 'Press start 2P', cursive;
+    text-align: center;
+    display: inline-block;
+
+font-size: 64px;
+color: white;
+border: 8px solid white;
+padding: 16px 64px;
+border-radius: 16px;
+
+text-shadow: 0 0 8px rgba(255, 255, 255, 0.3), 0 0 29px white;
+
+box-shadow: inset 0 0 32px white, 0 0 32px white;
+
+position: relative;
+
+}
+
+h2{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h3
+{
+color: rgb(0, 0, 0);
+font-size: 30px;
+font-family: 'Press Start 2P', cursive;
+text-align: center;
+margin-top: 80px;
+margin-bottom: 80px;
+}
+
+span::before
+{
+content: '';
+animation: word-swith 3s infinite;
+}
+
+@keyframes word-swith 
+{
+0% {content: '💻'}
+
+50%{content: '☕️';}
+
+100%{content: '🎮';}
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+section{
+    background-color: #ff6385;
+}
+
+header{
+    background: #642643;
+    position: relative;
+}
+
+header h1{
+    border: 5px solid white;
+    padding: 10px 50px;
+    margin: 50px;
+    z-index: 2;
+}
+
+.waves{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.wave-1{
+animation: moveWave1 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave1{
+to{
+    transform: translateX(-200px);
+}
+}
+
+.wave-2{
+animation: moveWave2 3s  1.2s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave2{
+from{
+    transform: translateX(-180px);
+}
+}
+
+.wave-3{
+animation: moveWave3 3s  0.7s ease-in-out infinite alternate;
+}
+
+@keyframes moveWave3{
+from{
+    transform: translateX(-160px);
+}
+} 
+
+body{
+    background-color: #ff6385;
+}
+
+.container{
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr)) ;
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.polaroid{
+    background-color: white;
+    padding: 15px 15px 40px;
+}
+
+.photo {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

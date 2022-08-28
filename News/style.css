@@ -1,0 +1,54 @@
+body {
+  margin: auto;
+  max-width: 1200px;
+  background: whitesmoke;
+}
+
+.jornal{
+  border: solid 5px black;
+  margin: 20px;
+  background: white;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px;
+  justify-content: center;
+}
+
+.logo {
+  height: 5vh;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  float: left;
+  flex-direction: column;
+}
+
+p {
+  margin: 20px;
+  font-size: 20px;
+}
+
+img {
+  margin: 10px;
+}
+
+li {
+  margin: 5px;
+  list-style: none;
+  font-size: 30px;
+}

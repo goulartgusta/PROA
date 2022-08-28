@@ -1,0 +1,30 @@
+body{
+    background-image: url(https://dicaspc.com.br/wp-content/uploads/2021/07/Cyberpunk-2077.jpg);
+    object-fit: cover;
+}
+
+section{
+    margin-bottom: 15px;
+    max-width: 600px;
+    border: 7px solid purple;
+    border-radius: 10px;
+    background: yellow;
+    position: absolute;
+    right: 120px;
+    bottom: 80px;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Press start 2P', cursive;
+    font-size: 20px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+p{
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+

@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+h1{
+    margin: 20px;
+}
+
+.letra {
+    list-style: none;
+    font-size: 30px;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+iframe{
+    padding: 10px;
+}

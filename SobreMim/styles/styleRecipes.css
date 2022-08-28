@@ -1,0 +1,52 @@
+body {
+    background: #ff6385;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+li{
+    padding: 3px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.polaroid {
+    background-color: whitesmoke;
+    padding: 15px 15px 40px;
+}
+
+.photo {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.preparo {
+    list-style: decimal;
+    margin: 40px;
+}
+
